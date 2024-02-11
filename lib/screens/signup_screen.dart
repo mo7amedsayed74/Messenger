@@ -3,10 +3,10 @@ import 'package:messenger_screen/screens/home_screen.dart';
 
 class SignupScreen extends StatelessWidget {
   SignupScreen({super.key});
-  var emailController = TextEditingController();
-  var nameController = TextEditingController();
-  var phoneController = TextEditingController();
-  var passwordController = TextEditingController();
+  final emailController = TextEditingController();
+  final nameController = TextEditingController();
+  final phoneController = TextEditingController();
+  final passwordController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
